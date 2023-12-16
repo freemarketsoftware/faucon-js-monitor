@@ -5,7 +5,7 @@ var beautify = require('js-beautify/js').js
 
 const targets = [
   "https://hotellabs.marriott.com/js/app.387a4a64.js",
-  "https://hotellabs.marriott.com/js/chunk-vendors.069eb9cb.js"
+  "https://hotellabs.marriott.com/js/chunk-vendors.069eb9cb.js",
   "https://www.marriott.com/resources/1886d59e46406f938b23f5e9f0ee55b0f0aafa2feb045"
 ];
 
