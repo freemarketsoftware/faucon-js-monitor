@@ -27,12 +27,12 @@ async function main() {
         fs.mkdirSync(`responses/${target.folder}`);
       }
 
-      fs.writeFileSync(`responses/${properFileName}`, `${cleanJs}`, {
+      fs.writeFileSync(`responses/${target.folder}/${properFileName}`, `${cleanJs}`, {
         flag: "w",
         encoding: "utf-8",
       });
     } catch (error) {
-      fs.writeFileSync(`responses/${properFileName}`, `${error}`, {
+      fs.writeFileSync(`responses/${target.folder}/${properFileName}`, `${error}`, {
         flag: "w",
         encoding: "utf-8",
       });
